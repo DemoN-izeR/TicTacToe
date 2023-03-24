@@ -1,0 +1,100 @@
+.button
+{
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: rgb(0, 0, 0);
+  color: #4015dd;
+  position: absolute;
+  top: 51px;
+  left: 86px;
+  /* font-size: var(--font-size-xs);
+  font-family: var(--font-inter);
+  color: var(--color-seagreen-100); */
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  display: inline-block;
+  width: 54px;
+  height: 40px;
+}
+.h2{
+  text-align: center;
+
+}
+
+.c1{
+  left: 0px;
+}
+.c2{
+  left: 53px;
+
+}
+.c3{
+  left: 106px;
+
+}
+
+.r1{
+  top:51px;
+}
+.r2{
+  top: 81px;
+  
+}
+.r3{
+  top: 121px;
+
+}
+.r4{
+  top:161px ;
+}
+
+
+
+.input-area-child {
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  border: 2px solid black;
+
+
+}
+.input,
+.input-area,
+.input-area-child {
+  position: absolute;
+  width: 156px;
+  height: 38px;
+}
+.input {
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+
+}
+.input-area {
+  top: 5px;
+  /* left: 4px; */
+}
+#input{
+  color:rgb(0, 0, 0) ;
+  opacity: 1;
+}
+.parent {
+  border: 2px solid #23dd15;
+  border-style: double;
+
+  background-color: rgb(2, 190, 17);
+  position: relative;
+  /* background-color: #faf2ff; */
+  width: 160px;
+  margin: auto;
+  height: 202px;
+  overflow: hidden;
+  text-align: right;
+  font-size: var(--font-size-xs);
+  color: #000;
+  font-family: var(--font-inter);
+}
+
